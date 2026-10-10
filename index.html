@@ -1,33 +1,36 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#075b53">
-<meta name="description" content="自製茶飲活動展示頁，非品牌官方網站。">
-<title>茗茶・好禮即享券｜活動展示頁</title>
-<style>
-:root{--green:#075b53;--cream:#f8f1e5;--ink:#4b2c12;--muted:#75685a}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
-.hero{min-height:100svh;background:var(--green);display:grid;place-items:center;position:relative;padding:32px 16px 50px}
-.hero img{display:block;width:min(100%,1000px);max-height:calc(100svh - 90px);object-fit:contain}
-.scroll{position:absolute;bottom:17px;color:white;text-decoration:none;font-size:12px;letter-spacing:.2em}
-main{width:min(100% - 28px,760px);margin:auto;padding:46px 0 56px}
-.eyebrow{text-align:center;color:#8c6b43;font-size:11px;letter-spacing:.24em;margin:0 0 10px}
-h1{text-align:center;font-family:"Noto Serif TC","Songti TC",serif;font-size:clamp(26px,5vw,38px);font-weight:600;margin:0 0 12px}
-.intro{text-align:center;color:var(--muted);font-size:14px;line-height:1.9;max-width:520px;margin:0 auto 28px}
-.card{background:#fffdf8;padding:clamp(10px,2.6vw,22px);border-radius:18px;box-shadow:0 14px 45px #472f171f}
-.card a.image{display:block;overflow:hidden;border-radius:10px}.card img{display:block;width:100%;height:auto;transition:transform .3s}.card a.image:hover img{transform:scale(1.01)}
-.actions{text-align:center;padding:24px 8px 4px}.btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 28px;border-radius:999px;background:var(--green);color:white;text-decoration:none;font-weight:700}.btn:hover{background:#034740}
-.notice{margin:24px auto 0;padding:16px 18px;max-width:620px;border:1px solid #dfd0b8;border-radius:12px;background:#ffffff80;color:#65594c;font-size:12px;line-height:1.85;text-align:center}
-footer{padding:22px 16px 30px;border-top:1px solid #4b2c121f;text-align:center;color:#85796c;font-size:11px;line-height:1.8}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-</style></head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="美廉社活動資訊與 LINE 連結">
+  <title>美廉社活動資訊</title>
+  <style>
+    :root { --purple: #92278f; --purple-dark: #741d70; --bg: #faf7fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: #292329; font-family: Arial, "Noto Sans TC", sans-serif; }
+    .wrap { width: min(760px, 100% - 28px); margin: 0 auto; padding: 22px 0 36px; }
+    .logo { display: block; width: min(340px, 78%); height: auto; margin: 0 auto 18px; }
+    .hero { display: block; width: 100%; height: auto; border-radius: 16px; box-shadow: 0 5px 20px #3a15300f; }
+    h1 { text-align: center; color: var(--purple-dark); font-size: clamp(24px, 5vw, 34px); margin: 22px 0 8px; }
+    .intro { text-align: center; color: #625662; line-height: 1.75; margin: 0 auto 20px; }
+    .cta { display: block; width: 100%; text-align: center; padding: 17px 18px; background: var(--purple); color: #fff; font-weight: 700; font-size: 21px; text-decoration: none; border-radius: 12px; box-shadow: 0 4px 0 var(--purple-dark); }
+    .cta:hover { background: var(--purple-dark); }
+    .notice { margin-top: 22px; padding: 14px 16px; background: #fff; border: 1px solid #ead9e9; border-radius: 10px; font-size: 13px; color: #655b65; line-height: 1.7; }
+    footer { text-align: center; color: #887c87; font-size: 12px; margin-top: 18px; }
+  </style>
+</head>
 <body>
-<section class="hero" aria-label="品牌風格開場"><img src="brand-intro.jpg" alt="深綠色茶飲品牌風格開場圖"><a class="scroll" href="#campaign">往下探索　↓</a></section>
-<main id="campaign"><p class="eyebrow">A LITTLE TEA, A LITTLE JOY</p><h1>茗茶・好禮即享券</h1>
-<p class="intro">以一杯茶的時光，收藏日常的小小美好。點選下方活動圖片或按鈕，前往指定連結查看資訊。</p>
-<section class="card" aria-label="活動主視覺">
-<a class="image" https://lin.ee/rKPZont" target="_blank" rel="noopener noreferrer" aria-label="前往指定活動連結"><img src="coupon-100.png" alt="茗茶好禮即享券活動主視覺"></a>
-<div class="actions"><a class="btn" href="https://lin.ee/rKPZont" target="_blank" rel="noopener noreferrer">查看活動資訊 ↗</a></div></section>
-<p class="notice"><strong>網站聲明：</strong>本頁為UNOCHA烏弄官方的品牌官方網站，活動真實性、優惠內容、適用門市及兌換資格，請點擊活動資訊官方客服領取。</p></main>
-</body></html>
+  <main class="wrap">
+    <img class="logo" src="simplemart-logo.png" alt="美廉社品牌圖片">
+    <img class="hero" src="campaign-store.png" alt="美廉社活動主視覺">
+    <h1>活動資訊</h1>
+    <p class="intro">點擊下方按鈕前往 LINE 連結，查看相關活動資訊與參加方式。</p>
+    <a class="cta" href="https://lin.ee/vXWxRGV" target="_blank" rel="noopener noreferrer">前往 LINE 查看活動</a>
+    <div class="notice">
+      <strong>重要提醒：</strong>本頁為資訊導覽頁，並非美廉社官方網站。請先確認 LINE 帳號與活動主辦單位身分，再提供個人資料或進行任何付款；實際優惠、資格及使用方式請以可核實的官方公告為準。
+    </div>
+    <footer>活動資訊導覽頁</footer>
+  </main>
+</body>
+</html>
